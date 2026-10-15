@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Car Club Membership Checker</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Premium Car Club</h1>
+        <h3>Membership Checker</h3>
+        <p>Enter your name to check if you are a member.</p>
+
+        <form>
+            <input type="text" id="firstname" placeholder="Enter your first name">
+            <input type="text" id="lastname" placeholder="Enter your last name">
+
+            <input type="button" py-click="view_user" value="Check Membership">
+        </form>
+
+        <div id="result">Your result will appear here.</div>
+    </div>
+
+    <script type="py" src="main.py"></script>
+
+</body>
+</html>
+
